@@ -261,4 +261,4 @@ if os.path.isfile(filename):
     print('==> loaded checkpoint {}'.format(filename))
 
 explain(norel_test if args.use_norel else rel_test, name=args.name)
-test(rel_test, norel_test)
+# test(rel_test, norel_test)

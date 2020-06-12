@@ -49,4 +49,5 @@ To visualize IRN interactions:
 $ python3 explain_relation_network.py --pre-relational
 
 OUTPUT:
-Results directory with interaction visuals and a stats file with test accuracy and AMIS for one random test batch
+Results directory with interaction visuals and a stats file with
+each epoch's (epoch, relational accuracy, non-relational accuracy) and AMIS for one random test batch
